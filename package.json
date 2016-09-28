@@ -2,7 +2,7 @@
   "name": "wikistack",
   "version": "1.0.0",
   "description": "wikistack redone",
-  "main": "app.js",
+  "main": "nodemon app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,9 @@
     "express": "^4.14.0",
     "morgan": "^1.7.0",
     "nunjucks": "^2.5.2",
-    "sequelize": "^3.24.3"
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.24.3",
+    "socket.io": "^1.4.8"
   }
 }
